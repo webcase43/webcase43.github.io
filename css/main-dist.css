@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+input,
+textarea,
+button {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+input[required=required],
+textarea[required=required] {
+  outline: none;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+  background: #fff;
+  color: black;
+  font-family: "OpenSansRegular";
+  font-size: 16px;
+  line-height: 1;
+  min-width: 320px;
+  text-align: left;
+  vertical-align: top;
+  overflow-x: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+.tinymce .justifyright,
+#tinymce .justifyright {
+  text-align: right;
+}
+
+.tinymce img.justifyright,
+#tinymce img.justifyright {
+  float: right;
+  margin: 0 0 10px 25px;
+}
+
+.tinymce .justifyleft,
+#tinymce .justifyleft {
+  text-align: left;
+}
+
+.tinymce img.justifyleft,
+#tinymce img.justifyleft {
+  float: left;
+  margin: 0 25px 10px 0;
+}
+
+.tinymce .justifycenter,
+#tinymce .justifycenter {
+  text-align: center;
+}
+
+.tinymce .justifyfull,
+#tinymce .justifyfull {
+  text-align: justify;
+}
+
+.tinymce h1,
+#tinymce h1 {
+  font-size: 26px;
+  margin: 0 0 20px 0;
+  text-align: left;
+}
+
+.tinymce h2,
+#tinymce h2 {
+  font-size: 22px;
+  margin: 0 0 15px 0;
+  text-align: left;
+}
+
+.tinymce h3,
+#tinymce h3 {
+  font-size: 18px;
+  margin: 0 0 15px 0;
+  text-align: left;
+}
+
+.tinymce p,
+#tinymce p {
+  margin: 0 0 15px 0;
+  text-align: justify;
+}
+
+.tinymce ul li,
+#tinymce ul li {
+  list-style-type: disc;
+  margin: 0 0 7px 35px;
+  text-align: justify;
+}
+
+.tinymce ol li,
+#tinymce ol li {
+  list-style-type: decimal;
+  margin: 0 0 7px 35px;
+  text-align: justify;
+}
+
+.tinymce ul li:last-child,
+#tinymce ul li:last-child {
+  margin: 0 0 15px 35px;
+}
+
+.tinymce ol li:last-child,
+#tinymce ol li:last-child {
+  margin: 0 0 15px 35px;
+}
+
+.tinymce a,
+#tinymce a {
+  color: #F72A27;
+  text-decoration: underline;
+}
+
+.tinymce a:hover,
+#tinymce a:hover {
+  text-decoration: none;
+}
+
+.tinymce img,
+#tinymce img {
+  vertical-align: top;
+}
+
+.tinymce img[style*="float: left"],
+.tinymce img[style*="float:left"],
+#tinymce img[style*="float: left"],
+#tinymce img[style*="float:left"] .tinymce img[style*="float: left"],
+#tinymce img[style*="float:left"] {
+  margin: 0 25px 10px 0;
+}
+
+.tinymce img[style*="float: right"],
+.tinymce img[style*="float:right"],
+#tinymce img[style*="float: right"],
+#tinymce img[style*="float:right"] {
+  margin: 0 0 10px 25px;
+}
+
+.tinymce table,
+#tinymce table {
+  border-collapse: collapse;
+  margin: 0 0 15px 0;
+}
+
+.tinymce table[align=center],
+#tinymce table[align=center] {
+  margin: 0 auto 15px;
+}
+
+.tinymce table[align=left],
+#tinymce table[align=left] {
+  margin: 0 0 15px 0;
+}
+
+.tinymce table[align=right],
+#tinymce table[align=right] {
+  margin: 0 0 15px auto;
+}
+
+.tinymce table.tiny-center,
+#tinymce table.tiny-center {
+  margin: 0 auto 15px;
+}
+
+.tinymce table.tiny-left,
+#tinymce table.tiny-left {
+  margin: 0 0 15px 0;
+}
+
+.tinymce table.tiny-right,
+#tinymce table.tiny-right {
+  margin: 0 0 15px auto;
+}
+
+.tinymce table td,
+#tinymce table td {
+  padding: 6px 10px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.tinymce table td p,
+#tinymce table td p {
+  margin: 0;
+}
+
+.item {
+  background: #000;
+  min-height: 200px;
+}

@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /webcase/
+Disallow: /assets/components/
+Disallow: /index.php
+Disallow: *?
+
+Host: https://web-ca.ru/
+
+Sitemap: https://web-ca.ru/sitemap.xml
